@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Bell Fix v1.0.0",
+		"description": "Redstone compatiable bell",
+		"icon": {
+			"item": "minecraft:bell"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}

@@ -1,0 +1,1 @@
+execute as @e[type=area_effect_cloud, tag=boomber.bell_fix.bell] at @s run function boomber:bell_fix/bell/main

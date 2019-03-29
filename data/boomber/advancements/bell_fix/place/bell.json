@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"bell": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:bell"
+				}
+			}
+		}
+	},
+	"parent": "boomber:bell_fix/place/root",
+	"rewards": {
+		"function": "boomber:bell_fix/place/bell"
+	}
+}

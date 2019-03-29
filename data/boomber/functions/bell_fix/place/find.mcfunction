@@ -1,0 +1,2 @@
+execute as @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:bell unless entity @e[type=area_effect_cloud, tag=boomber.bell_fix.bell, distance=..0.3] run function boomber:bell_fix/place/found
+execute as @s[distance=..5] unless block ~ ~ ~ minecraft:bell anchored feet positioned ^ ^ ^0.1 run function boomber:bell_fix/place/find
